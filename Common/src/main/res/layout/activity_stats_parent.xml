@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_StatsParent"
+    android:background="@drawable/main_bg_a"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="resulte Convertor"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/sarpanch_extrabold"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="50sp" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/calculate_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="The Result Is"
+        android:layout_gravity="center"
+        android:textSize="50dp"
+        android:fontFamily="@font/sarpanch_medium"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

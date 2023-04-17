@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UnitConverterMultiApp</string>
+    <string name="title">Convertor Shekal To Dollar</string>
+    <string name="unit">Shekal</string>
+</resources>
